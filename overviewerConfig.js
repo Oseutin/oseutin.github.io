@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "The Braindead Cafe - overworld",
+        "The Braindead Cafe - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1639210097",
+        "cacheTag": "1640816079",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,30 +42,107 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (smooth_lighting)",
-            "zoomLevels": 11,
+            "name": "Overworld Daytime",
+            "zoomLevels": 9,
             "defaultZoom": 1,
-            "maxZoom": 11,
-            "path": "world-smooth_lighting",
+            "maxZoom": 9,
+            "path": "Overworld Daytime",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1639206849,
+            "world": "The Braindead Cafe - overworld",
+            "last_rendertime": 1640752475,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
-                128,
-                135,
-                -256
+                0,
+                96,
+                0
             ],
             "minZoom": 0,
             "spawn": [
-                128,
-                135,
-                -256
+                0,
+                96,
+                0
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Overworld Nighttime",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "Overworld Nighttime",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "The Braindead Cafe - overworld",
+            "last_rendertime": 1640752475,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                96,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": [
+                0,
+                96,
+                0
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Overworld Caves",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "Overworld Caves",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "The Braindead Cafe - overworld",
+            "last_rendertime": 1640752475,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                96,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": [
+                0,
+                96,
+                0
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "The Nether",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "The Nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "The Braindead Cafe - nether",
+            "last_rendertime": 1640739584,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                96,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
